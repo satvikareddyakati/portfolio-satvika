@@ -1,7 +1,6 @@
 type Project = {
   title: string;
   description: string;
-  highlights?: string[];
   tags: string[];
   color: string;
 };
@@ -11,11 +10,6 @@ const projects: Project[] = [
     title: "Agentic AI Supply Chain Risk & Procurement Optimizer",
     description:
       "A multi-agent procurement workflow that evaluates supplier risk using live disruption signals, LLM reasoning, and human-in-the-loop review.",
-    highlights: [
-      "Designed a 6-agent LangGraph pipeline for end-to-end supplier evaluation with 100% task accuracy across 15 regression scenarios.",
-      "Achieved F1=0.983 and AUC-ROC=1.00 on 50 real-world disruption events, outperforming a Random Forest baseline.",
-      "Integrated NOAA and GDELT APIs with fallback scoring, snapshot replay, and Hypothesis property-based tests to prevent data leakage.",
-    ],
     tags: ["Python", "LangGraph", "LangSmith", "Pydantic"],
     color: "from-accent/10 to-primary/10",
   },
@@ -81,16 +75,6 @@ export function ProjectsSection() {
                 <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
                   {project.description}
                 </p>
-                {project.highlights && (
-                  <ul className="mb-4 space-y-2 text-sm text-muted-foreground leading-relaxed">
-                    {project.highlights.map((highlight) => (
-                      <li key={highlight} className="pl-4 relative">
-                        <span className="absolute left-0 top-2 h-1.5 w-1.5 rounded-full bg-primary/70" />
-                        {highlight}
-                      </li>
-                    ))}
-                  </ul>
-                )}
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
