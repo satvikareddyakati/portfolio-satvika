@@ -39,7 +39,7 @@ export function HeroSection() {
           className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-8 animate-fade-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Upcoming SDE Intern @ Amazon (AWS) and
+          SDE Intern @ Amazon (AWS) and
           Data Science graduate student at Texas A&M 
           building end-to-end ML solutions from data to deployment.
         </p>

@@ -32,7 +32,7 @@ export function ContactSection() {
     const body = encodeURIComponent(bodyLines.join("\n"));
 
     if (typeof window !== "undefined") {
-      window.location.href = `mailto:akatisatvikareddy@gmail.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:satvikareddyakati@gmail.com?subject=${subject}&body=${body}`;
     }
   };
 
@@ -57,10 +57,10 @@ export function ContactSection() {
               <div>
                 <p className="font-medium text-foreground">Email</p>
                 <a
-                  href="mailto:akatisatvikareddy@gmail.com"
+                  href="mailto:satvikareddyakati@gmail.com"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  akatisatvikareddy@gmail.com
+                  satvikareddyakati@gmail.com
                 </a>
               </div>
             </div>

@@ -1,6 +1,6 @@
 const experiences = [
   {
-    role: "Upcoming SDE Intern",
+    role: "SDE Intern",
     company: "Amazon Web Services (AWS)",
     period: "Summer 2026 · Minneapolis, MN",
     description:
