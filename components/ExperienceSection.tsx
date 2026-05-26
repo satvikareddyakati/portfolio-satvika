@@ -1,10 +1,10 @@
 const experiences = [
   {
-    role: "SDE Intern",
+    role: "SDE Intern @ AWS",
     company: "Amazon Web Services (AWS)",
-    period: "Summer 2026 · Minneapolis, MN",
+    period: "May 2026 – July 2026 · Minneapolis, MN",
     description:
-      "Joining AWS as a Software Development Engineer Intern, contributing to cloud-scale services and data-driven systems.",
+      "Contributing to cloud-scale services and data-driven systems as a Software Development Engineer Intern.",
   },
   {
     role: "Graduate Research Assistant",

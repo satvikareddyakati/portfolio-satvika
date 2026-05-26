@@ -19,7 +19,15 @@ const skillCategories = [
   {
     icon: Server,
     title: "Deployment & Tools",
-    skills: ["Flask / FastAPI", "Git", "AWS (basic)", "Spark (basic)"],
+    skills: [
+      "Flask / FastAPI",
+      "Git",
+      "AWS",
+      "Athena",
+      "CDK",
+      "CloudWatch",
+      "Spark (basic)",
+    ],
   },
   {
     icon: Layout,
